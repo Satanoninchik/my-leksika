@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-leksika
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: LEXIKA_BIND
+        value: 0.0.0.0

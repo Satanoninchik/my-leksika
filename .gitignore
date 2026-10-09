@@ -1,0 +1,9 @@
+private-data/
+runtime/
+voices/*.onnx
+voices/*.onnx.json
+node_modules/
+vendor/
+.git/
+.env*
+*.log
